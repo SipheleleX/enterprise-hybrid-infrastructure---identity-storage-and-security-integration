@@ -1,8 +1,7 @@
-#  Enterprise Hybrid Infrastructure Project
+#  Enterprise Hybrid Infrastructure Project (In-Progress)
 
 [![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com)
 [![Windows Server](https://img.shields.io/badge/Windows_Server_2025-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows-server)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > A production-ready hybrid cloud infrastructure demonstrating enterprise-level integration between Windows Server 2025 and Azure services, featuring identity management, file synchronization, and comprehensive security monitoring.
 
@@ -21,9 +20,6 @@
 - [Skills Demonstrated](#skills-demonstrated)
 - [Lessons Learned](#lessons-learned)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ##  Overview
 
@@ -37,8 +33,6 @@ This project showcases a comprehensive hybrid cloud infrastructure that bridges 
 - Scalable infrastructure ready for production deployment
 
 ##  Architecture
-
-![Architecture Diagram](./diagrams/architecture-overview.png)
 
 ### High-Level Design
 ```
@@ -335,22 +329,6 @@ Full retrospective: [LESSONS-LEARNED.md](./LESSONS-LEARNED.md)
 - [ ] Add Azure NetApp Files for high-performance storage
 - [ ] Create Infrastructure as Code (Bicep/Terraform) for full deployment
 - [ ] Implement advanced SOAR capabilities with custom connectors
-
-**Want to contribute?** See [CONTRIBUTING.md](./CONTRIBUTING.md)
-
-##  Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/hybrid-infrastructure/issues).
-
-**Ways to contribute:**
--  Report bugs or issues
--  Suggest new features or improvements
--  Improve documentation
--  Submit pull requests
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ##  Contact
 
